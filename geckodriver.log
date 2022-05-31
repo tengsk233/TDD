@@ -24,3 +24,17 @@ console.log: "RemoteSettingsWorker error: Error: Can't import when we've started
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
 JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1653969029310	geckodriver	INFO	Listening on 127.0.0.1:1774
+1653969032404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zhoux\\AppData\\Local\\Temp\\rust_mozprofileDHiSLZ"
+1653969033055	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhoux\\AppData\\Local\\Temp\\rust_mozprofileDHiSLZ\\search.json.mozlz4", (void 0)))
+1653969035352	Marionette	INFO	Listening on port 1782
+1653969035569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653969035652	Marionette	INFO	Stopped listening on port 1782
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
