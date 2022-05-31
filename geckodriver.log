@@ -1,0 +1,26 @@
+1653966739226	geckodriver	INFO	Listening on 127.0.0.1:1345
+1653966742318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zhoux\\AppData\\Local\\Temp\\rust_mozprofile0esqdH"
+1653966743011	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhoux\\AppData\\Local\\Temp\\rust_mozprofile0esqdH\\search.json.mozlz4", (void 0)))
+1653966745372	Marionette	INFO	Listening on port 1353
+1653966745484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653967100187	geckodriver	INFO	Listening on 127.0.0.1:1427
+1653967103261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zhoux\\AppData\\Local\\Temp\\rust_mozprofileur1CIc"
+1653967103914	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhoux\\AppData\\Local\\Temp\\rust_mozprofileur1CIc\\search.json.mozlz4", (void 0)))
+1653967106312	Marionette	INFO	Listening on port 1435
+1653967106423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653967130060	geckodriver	INFO	Listening on 127.0.0.1:1489
+1653967133094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zhoux\\AppData\\Local\\Temp\\rust_mozprofileReorPz"
+1653967133753	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhoux\\AppData\\Local\\Temp\\rust_mozprofileReorPz\\search.json.mozlz4", (void 0)))
+1653967136223	Marionette	INFO	Listening on port 1498
+1653967136296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653967136492	Marionette	INFO	Stopped listening on port 1498
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
